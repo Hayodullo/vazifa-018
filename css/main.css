@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;1,400;1,500&display=swap');
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: " Rubik","Arial",sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(36, 42, 69,0.5);
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-headr{
+    margin-bottom: 120px;
+}
+.header-container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding-top: 48px;
+}
+.site-nav{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.nav-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin-right: 48px;
+}
+.nav-itme+.nav-itme{
+    margin-left: 48px;
+}
+.nav-link{
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
+    color: #242a45;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.login{
+    padding: 12px 33px;
+    font-weight: 500px;
+    font-size: 13px;
+    line-height: 17px;
+    background-color: #fa5959;
+    border-radius: 5px;
+    color:#FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
